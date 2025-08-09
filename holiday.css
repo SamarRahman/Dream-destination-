@@ -1,0 +1,505 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  
+}
+a{
+    text-decoration: none;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background: url('holidayon.jpg') no-repeat center center/cover;
+}
+
+.socalmedia{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    
+}
+.nav-top {
+  width: 40%;
+  font-size: 16px;
+  float: left;
+  margin-left: 10px;
+  text-decoration: none;
+  
+}
+.mail{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #111;
+}
+.contno{
+    color: #111;
+    margin-left: 5px;
+}
+.socal{
+    float: right;
+    width: 15%;
+    font-size: 1.4rem;
+    color: black;
+    padding-left: 9px;
+}
+
+.navbar {
+    color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 50px;
+}
+a.active,a:hover{
+   color: black;
+    transition: .5s;
+    text-shadow: 60px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+  }
+
+.logo {
+  text-align: center;
+  color: white;
+}
+
+.logo .circle {
+  font-size: 28px;
+}
+
+.logo h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0 0;
+}
+
+.logo p {
+  font-size: 12px;
+  margin-top: -4px;
+}
+
+.content {
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.content h1 {
+  font-size: 6rem;
+  color: #fda838;
+  font-weight: 800;
+}
+
+.content p {
+  max-width: 800px;
+  margin: 20px auto 0;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.holiday-header {
+  text-align: center;
+  padding: 60px 20px 30px;
+}
+
+.holiday-header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #222;
+}
+
+.holiday-section {
+  padding-top: 5%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.holiday-section h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.holiday-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.holiday-image img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.holiday-content {
+  max-width: 600px;
+  text-align: left;
+  color: #555;
+}
+
+.holiday-content h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.holiday-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+.specialties h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.specialties ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.specialties ul li {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+
+.Celebrations-section {
+  padding: 60px 20px;
+}
+
+.Celebrations-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.Celebrations-content {
+  flex: 1 1 500px;
+  text-align: left;
+}
+
+.Celebrations-content h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.Celebrations-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.specialties h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.specialties ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.specialties ul li {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.Celebrations-image {
+  flex: 1 1 500px;
+}
+
+.Celebrations-image img {
+ width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.Adventures-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 5%;
+}
+
+.left-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.left-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.right-content {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px 40px;
+}
+
+.right-content h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.right-content p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.right-content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.right-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.right-content ul li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+  
+}
+
+.Disco-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 5%;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 40px;
+}
+
+.text-content h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.text-content h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.text-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.text-content ul li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.image-box {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+ .book-section {
+      background: transparent;
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .book-section::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 1;
+    }
+
+    .book-content {
+      position: relative;
+      z-index: 2;
+      color: brown;
+    }
+
+    .book-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    }
+
+    .book-btn {
+      background: black;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border: none;
+      padding: 15px 50px;
+      border-radius: 40px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .book-btn:hover {
+      background: #1e90ff;
+      color: #fff;
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    }
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px 0;
+  font-size: 15px;
+  margin-top: 100px;
+
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.footer-section a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-section p {
+  margin: 10px 0;
+  color: #ccc;
+}
+
+.footer-section i {
+  margin-right: 8px;
+  color: #fff;
+}
+
+.payment-icons img {
+  height: 30px;
+  margin: 5px 10px 0 0;
+  vertical-align: middle;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 20px;
+}
+.footer a:hover{
+     color: black;
+    transition: .5s;
+    text-shadow: 60px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}

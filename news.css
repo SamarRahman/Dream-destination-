@@ -1,0 +1,237 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f9fc;
+      color: #222;
+    }
+
+    .hero-section {
+  position: relative;
+  height: 100vh;
+  background: url('nepall.jpg') no-repeat center center/cover;
+}
+
+.socalmedia{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    
+}
+.nav-top {
+  width: 40%;
+  font-size: 16px;
+  float: left;
+  margin-left: 10px;
+  text-decoration: none;
+  
+}
+.mail{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #111;
+}
+.contno{
+    color: #111;
+    margin-left: 5px;
+}
+.socal{
+    float: right;
+    width: 15%;
+    font-size: 1.4rem;
+    color: black;
+    padding-left: 9px;
+}
+
+.navbar {
+    color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 65px;
+}
+a.active,a:hover{
+   color: black;
+    transition: .5s;
+    text-shadow: 60px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+  }
+
+.logo {
+  text-align: center;
+  color: white;
+}
+
+.logo .circle {
+  font-size: 28px;
+}
+
+.logo h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0 0;
+}
+
+.logo p {
+  font-size: 12px;
+  margin-top: -4px;
+}
+
+.content {
+  position: absolute;
+  bottom: 15%;
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.content h1 {
+  font-size: 5rem;
+  color: #fda838;
+  font-weight: 800;
+}
+
+.content p {
+  max-width: 800px;
+  margin: 20px auto 0;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #efeeec ;
+}
+
+    .news-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .news-card {
+      background-color: #ffffff;
+      margin-top: 100px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      overflow: hidden;
+      transition: 0.3s ease;
+    }
+
+    .news-card:hover {
+      transform: scale(1.02);
+    }
+
+    .news-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .news-content {
+      padding: 1rem;
+    }
+
+    .news-content h2 {
+      color: #003049;
+      margin-bottom: 0.5rem;
+    }
+
+    .news-content p {
+      font-size: 0.95rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .weather-box {
+      background-color: #e0f2f1;
+      padding: 0.5rem;
+      border-left: 4px solid #00695c;
+      font-size: 0.9rem;
+    }
+
+    .footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px 0;
+  font-size: 15px;
+  margin-top: 300px;
+
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.footer-section a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-section p {
+  margin: 10px 0;
+  color: #ccc;
+}
+
+.footer-section i {
+  margin-right: 8px;
+  color: #fff;
+}
+
+.payment-icons img {
+  height: 30px;
+  margin: 5px 10px 0 0;
+  vertical-align: middle;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 20px;
+}
+.footer a:hover{
+     color: black;
+    transition: .5s;
+    text-shadow: 60px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
